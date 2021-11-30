@@ -1,0 +1,31 @@
+$box-padding: 0.7rem;
+
+.neumorphismBox {
+    border-radius: 10px;
+    background: #eeeeee;
+    box-shadow: 4px 4px 12px #cacaca, -4px -4px 12px #ffffff;
+    padding: $box-padding;
+    font-family: 'Prompt', sans-serif;
+    margin: 0.5rem;
+    height: 70px;
+    flex: 1 0 calc(50% - 3rem);
+    min-width: 250px;
+}
+.neumorphismInput {
+    border-radius: 5px;
+    background: #eeeeee;
+    box-shadow: inset 4px 4px 12px #cacaca, inset -4px -4px 12px #ffffff;
+    border: none;
+    padding: 6px 12px;
+    outline: none;
+    width: calc(100% - $box-padding - $box-padding);
+    margin-top: 0.5rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+.neumorphismRadio {
+    margin: 1rem 5px;
+    + label {
+        margin-right: 1rem;
+    }
+}

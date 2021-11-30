@@ -1,0 +1,35 @@
+.filterBox {
+    font-family: 'Prompt', sans-serif;
+    flex-basis: 33%;
+    margin: 1.5rem;
+    color: #444444;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px #cacaca, -10px -10px 30px #eeeeee;
+    padding: 1rem 1.5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    label:nth-child(odd) {
+        flex-basis: 30%;
+    }
+    label:nth-child(even) {
+        flex-basis: 70%;
+    }
+}
+
+.btn {
+    height: 30px;
+    font-family: 'Prompt', sans-serif;
+    min-width: 100px;
+    cursor: not-allowed;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    margin: 1rem auto 0;
+}
+.btn.active {
+    background-color: #e87722;
+    color: #ffffff;
+    border: 1px solid #c06621;
+    cursor: pointer;
+}

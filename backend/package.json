@@ -1,0 +1,26 @@
+{
+  "name": "insurance_premium_calculation_backend",
+  "version": "1.0.0",
+  "description": "This is nodejs project using typescript as BFF for personal interview test",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "nodemon --watch './src/**/*' -e ts,tsx --ignore './src/*.test.ts' --exec ts-node ./src/index.ts",
+    "test": "jest"
+  },
+  "author": "s.ladawisalsup@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  }
+}

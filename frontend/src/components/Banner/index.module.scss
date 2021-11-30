@@ -1,0 +1,17 @@
+$color-white: #ffffff;
+
+.neumorphism {
+    padding: 1rem 3rem;
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px $color-white;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    border: 0;
+    background-color: $color-white;
+    height: 2rem;
+}
+
+.bannerLabel {
+    font-weight: 600;
+    margin-left: 1%;
+}

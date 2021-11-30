@@ -1,0 +1,30 @@
+$color-orange: #e87722;
+$color-white: #eeeeee;
+
+.card {
+    margin: 2rem 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    height: max-content;
+    color: $color-orange;
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px #cacaca, -10px -10px 30px $color-white;
+
+    > .header {
+        padding-bottom: 0.5rem;
+        font-weight: 600;
+        font-size: 24px;
+        border-bottom: 1px solid $color-orange;
+    }
+
+    > svg {
+        font-size: 15rem;
+        margin: auto;
+        margin-top: 1rem;
+        display: block;
+    }
+
+    > .footer {
+        text-align: center;
+    }
+}
